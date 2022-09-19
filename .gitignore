@@ -1,3 +1,4 @@
+build/*
 scripts/*.cam
 scripts/*.png
 
