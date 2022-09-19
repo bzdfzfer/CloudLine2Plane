@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/visPlaneCloud.dir/src/visPlaneCloud.cpp.o"
   "CMakeFiles/visPlaneCloud.dir/src/visualizer.cpp.o"
-  "visPlaneCloud.pdb"
   "visPlaneCloud"
+  "visPlaneCloud.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

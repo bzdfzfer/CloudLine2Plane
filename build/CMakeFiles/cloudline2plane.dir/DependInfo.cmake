@@ -4,21 +4,25 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/CloudLine2Plane/src/cloudline2plane.cpp" "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/CloudLine2Plane/build/CMakeFiles/cloudline2plane.dir/src/cloudline2plane.cpp.o"
-  "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/CloudLine2Plane/src/line_clustering.cpp" "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/CloudLine2Plane/build/CMakeFiles/cloudline2plane.dir/src/line_clustering.cpp.o"
-  "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/CloudLine2Plane/src/line_extraction.cpp" "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/CloudLine2Plane/build/CMakeFiles/cloudline2plane.dir/src/line_extraction.cpp.o"
-  "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/CloudLine2Plane/src/line_feature.cpp" "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/CloudLine2Plane/build/CMakeFiles/cloudline2plane.dir/src/line_feature.cpp.o"
-  "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/CloudLine2Plane/src/plane_extraction.cpp" "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/CloudLine2Plane/build/CMakeFiles/cloudline2plane.dir/src/plane_extraction.cpp.o"
-  "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/CloudLine2Plane/src/visualizer.cpp" "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/CloudLine2Plane/build/CMakeFiles/cloudline2plane.dir/src/visualizer.cpp.o"
+  "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/git_sub/CloudLine2Plane/src/cloudline2plane.cpp" "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/git_sub/CloudLine2Plane/build/CMakeFiles/cloudline2plane.dir/src/cloudline2plane.cpp.o"
+  "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/git_sub/CloudLine2Plane/src/line_clustering.cpp" "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/git_sub/CloudLine2Plane/build/CMakeFiles/cloudline2plane.dir/src/line_clustering.cpp.o"
+  "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/git_sub/CloudLine2Plane/src/line_extraction.cpp" "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/git_sub/CloudLine2Plane/build/CMakeFiles/cloudline2plane.dir/src/line_extraction.cpp.o"
+  "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/git_sub/CloudLine2Plane/src/line_feature.cpp" "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/git_sub/CloudLine2Plane/build/CMakeFiles/cloudline2plane.dir/src/line_feature.cpp.o"
+  "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/git_sub/CloudLine2Plane/src/plane_extraction.cpp" "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/git_sub/CloudLine2Plane/build/CMakeFiles/cloudline2plane.dir/src/plane_extraction.cpp.o"
+  "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/git_sub/CloudLine2Plane/src/visualizer.cpp" "/media/bzdfzfer/Datasets/PlaneExtraction_Codes/git_sub/CloudLine2Plane/build/CMakeFiles/cloudline2plane.dir/src/visualizer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "DISABLE_LIBUSB_1_0"
+  "DISABLE_PCAP"
+  "DISABLE_PNG"
   "QT_CORE_LIB"
   "QT_GUI_LIB"
   "QT_NO_DEBUG"
   "QT_WIDGETS_LIB"
+  "qh_QHpointer"
   "vtkFiltersFlowPaths_AUTOINIT=1(vtkFiltersParallelFlowPaths)"
   "vtkIOExodus_AUTOINIT=1(vtkIOParallelExodus)"
   "vtkIOGeometry_AUTOINIT=1(vtkIOMPIParallel)"
@@ -34,6 +38,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include"
   "/usr/include/vtk-6.3"
   "/usr/include/freetype2"
   "/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"
@@ -41,13 +46,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"
   "/usr/lib/x86_64-linux-gnu/openmpi/include"
   "/usr/include/python2.7"
-  "/usr/include/x86_64-linux-gnu"
   "/usr/include/hdf5/openmpi"
   "/usr/include/libxml2"
   "/usr/include/jsoncpp"
   "/usr/include/tcl"
-  "../include"
-  "/usr/include/pcl-1.8"
+  "/usr/local/PCL19/include/pcl-1.9"
   "/usr/include/eigen3"
   "/usr/include/ni"
   "/usr/include/openni2"

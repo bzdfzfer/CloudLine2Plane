@@ -1,7 +1,12 @@
 # CloudLine2Plane
 This is a repo for multi-plane segmentation algorithm on sparse multi-line point cloud.
 
+<p float="left">
+  <img src="pics/fig1a_c.png" width="300" />
+  <img src="pics/fig1_c.png" width="300" />     
+</p>
 
+​             Input point cloud (from VLP-16) 		Our multi-plane segmentation result
 
 ## Dependencies
 
@@ -13,39 +18,52 @@ This is a repo for multi-plane segmentation algorithm on sparse multi-line point
 ## Build This Program
 
 ```
-mkdir -p circle_odom_ws/src/ && cd circle_odom_ws/src/
-git clone https://github.com/bzdfzfer/circle_odometry
-cd ~/circle_odom_ws/ && catkin_make -DCMAKE_BUILD_TYPE=Release
+git clone https://github.com/bzdfzfer/CloudLine2Plane.git
+mkdir -p ~/CloudLine2Plane/build/ && cd ~/CloudLine2Plane/build/
+cmake .. 
+make -j8
 ```
 
 ## Run This Program
 
 ```
-source devel/setup.bash
-roslaunch circle_odometry circle_odometry.launch 
-# Open another terminal.
-cd ~/circle_odom_ws/src/circle_odometry/rviz_cfg/
-rviz -d circle_odom.rviz
-rosbag play scene1.bag --clock 
+Please refer bash files in the scripts folder.
+e.g.
+
 ```
 
 
 
 ## Dataset Downloading
 
-* TODO (add  links for three rosbags)
+Currently, the sample data is located at the "data" folder.
+
+* TODO (more datasets will be online by the net-disk like google-drive or one-drive. )
 
   
 
 ## Some Results
 
-#### Comparison with RF2O
+* Plane segmentation results of Velodyne Indoor Simulation dataset
 
-![](pics/Trajectories_comparison.png)
+  ![Velodyne Cloud](pics/fig6_together_note.png)
 
-#### Degneration processing results
+  ​	              16-line Cloud   (VLP-16)                32-line Cloud (HDL-32)                   64-line Cloud (HDL-64) 
 
-![](pics/Degeneration_processing.png)
+* Segmentation results on Perceptron Segcomp Dataset
+
+  <p float="left">
+    <img src="pics/fig7c0.png" width="240" />
+    <img src="pics/fig7a0.png" width="240" />
+    <img src="pics/fig7e0.png" width="240" />
+    <img src="pics/fig7c.png" width="240" />
+    <img src="pics/fig7a.png" width="240" />
+    <img src="pics/fig7e.png" width="240" />   
+      <img src="pics/fig7d.png" width="240" />
+    <img src="pics/fig7b.png" width="240" />
+    <img src="pics/fig7f.png" width="240" />    
+
+  </p>
 
 ## Paper Citation:
 
