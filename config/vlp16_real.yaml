@@ -1,0 +1,45 @@
+# lidar parameters.
+lidar_name: "VLP-16"
+reverse_flag: false
+
+
+# # line extraction parameters.
+# v_min_line_points: 3
+# v_seed_line_points: 2
+# v_least_thresh: 0.05
+# v_min_line_length: 0.03
+# v_predict_distance: 0.08
+# v_pts_missing_tolerance: 1
+# v_max_pts_gap: 1.5
+
+# h_min_line_points: 6
+# h_seed_line_points: 3
+# h_least_thresh: 0.06
+# h_min_line_length: 0.04
+# h_predict_distance: 0.09
+# h_pts_missing_tolerance: 3
+# h_max_pts_gap: 1.5
+
+# # # line clustering parameters.
+# line_plane_distThreshold: 0.11
+
+
+# line extraction parameters.
+v_min_line_points: 3
+v_seed_line_points: 2
+v_least_thresh: 0.045
+v_min_line_length: 0.04
+v_predict_distance: 0.08
+v_pts_missing_tolerance: 1
+v_max_pts_gap: 2.5
+
+h_min_line_points: 6
+h_seed_line_points: 3
+h_least_thresh: 0.075
+h_min_line_length: 0.04
+h_predict_distance: 0.13
+h_pts_missing_tolerance: 5
+h_max_pts_gap: 2.5
+
+# # line clustering parameters.
+line_plane_distThreshold: 0.125

@@ -1,0 +1,23 @@
+# lidar parameters.
+lidar_name: "SegCompPerceptron"
+reverse_flag: false
+
+# line extraction parameters.
+v_min_line_points: 6
+v_seed_line_points: 3
+v_least_thresh: 0.035
+v_min_line_length: 0.06
+v_predict_distance: 0.07
+v_pts_missing_tolerance: 1
+v_max_pts_gap: 1
+
+h_min_line_points: 6
+h_seed_line_points: 3
+h_least_thresh: 0.035
+h_min_line_length: 0.06
+h_predict_distance: 0.07
+h_pts_missing_tolerance: 1
+h_max_pts_gap: 1
+
+# line clustering parameters.
+line_plane_distThreshold: 0.035

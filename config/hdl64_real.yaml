@@ -1,0 +1,24 @@
+# lidar parameters.
+lidar_name: "HDL-64"
+reverse_flag: false
+
+# line extraction parameters.
+v_min_line_points: 4
+v_seed_line_points: 2
+v_least_thresh: 0.075
+v_min_line_length: 0.10
+v_predict_distance: 0.12
+v_pts_missing_tolerance: 2
+v_max_pts_gap: 1.0
+
+h_min_line_points: 5
+h_seed_line_points: 2
+h_least_thresh: 0.075
+h_min_line_length: 0.08
+h_predict_distance: 0.12
+h_pts_missing_tolerance: 2
+h_max_pts_gap: 1.0
+
+# line clustering parameters.
+line_plane_distThreshold: 0.085
+
