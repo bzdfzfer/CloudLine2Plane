@@ -67,5 +67,5 @@ Currently, the sample data is located at the "data" folder.
 
 ## Paper Citation:
 
-* Xiaoguo D, Yuchu L, Qijun Chen, A fast multi-plane segmentation algorithm for sparse 3D LiDAR point clouds by line segment grouping, IEEE Transactions on Instrumentation and Measurement. (**Accepted**)
+* Xiaoguo D, Yuchu L, Qijun Chen, A fast multi-plane segmentation algorithm for sparse 3D LiDAR point clouds by line segment grouping, IEEE Transactions on Instrumentation and Measurement. (**Accepted**)[early access version](https://ieeexplore.ieee.org/document/10005840/)
 
